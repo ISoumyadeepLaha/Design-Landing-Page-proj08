@@ -19,3 +19,5 @@ It took me around 1 hours 15 mins time to complete.
 
 ## Live link to the project
 
+[Netlify Link...](https://design-landing-page-proj08.netlify.app/)
+
