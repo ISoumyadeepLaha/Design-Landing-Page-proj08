@@ -15,7 +15,7 @@ It took me around 1 hours 15 mins time to complete.
 
 ## Screen Shorts of the project
 
-![](./images/Screen.jpg)
+![screen](./images/Screen.jpg)
 
 ## Live link to the project
 
