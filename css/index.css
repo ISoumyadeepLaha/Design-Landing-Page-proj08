@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Edu+QLD+Beginner&family=Montserrat:wght@400;700&family=Poppins:ital@0;1&family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Edu+QLD+Beginner&family=Montserrat:wght@400;700;800&family=Poppins:ital@0;1&family=Roboto&family=Ubuntu&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.main-div{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.nav-items{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item{
+    color: #8D3DAF;
+    font-size: 14px;
+}
+.signin-btn{
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to right, #965cf2, #ff8adc);
+    color: #fff;
+}
+
+.intro-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.left-section{
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 40px;
+    margin-top: 100px;
+    /* gap: 40px; */
+}
+
+.left-section h1{
+    font-size: 70px;
+    color: #3e4794;
+    font-weight: 800;
+}
+
+.left-section h4{
+    width: 80%;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #758283;
+}
+
+.learn-more-btn{
+    width: 180px;
+    height: 60px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, #965cf2, #ff8adc);
+    color: #fff;
+    font-size: 20px;
+}
+
+.vector-img{
+    position: absolute;
+    top: 70%;
+}
+.vector-dot{
+    position: absolute;
+    top: 71%;
+    left: 41%;
+}
+
+
+
